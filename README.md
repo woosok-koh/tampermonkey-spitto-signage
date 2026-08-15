@@ -232,3 +232,13 @@ tampermonkey-spitto-signage/
 - 240분 자동 새로고침 적용
 
 상세 변경이력은 `CHANGELOG.md`를 참고합니다.
+
+
+## 라이선스
+
+이 프로젝트는 MIT License로 공개됩니다.
+
+- 영문 원문: [LICENSE](LICENSE)
+- 한글 안내: [LICENSE.ko.md](LICENSE.ko.md)
+
+자유롭게 사용·수정·배포할 수 있으며, 재배포 시 원 저작권 표시와 MIT License를 유지해야 합니다.
