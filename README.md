@@ -53,7 +53,7 @@ Tampermonkey 사용자 스크립트를 적용하면 동행복권 스피또 판�
 
 ### 매장 모니터
 
-![스피또 사이니지 실제 매장 화면](docs/screenshots/spitto-signage-display-02.jpeg)
+![스피또 사이니지 실제 매장 화면](docs/screenshots/spitto-signage-display-04.jpeg)
 
 ### 매장 설치 모습
 
