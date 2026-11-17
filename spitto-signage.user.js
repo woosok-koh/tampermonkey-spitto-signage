@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         스피또 HDMI 오버레이 (판매중 전체 선택형)
 // @description  상단 시계 + 선택 카드 수에 따라 화면에 맞게 자동 확대/축소 + 하단 판매중 회차 선택
-// @version      2.1
+// @version      2.2
 // @match        *://dhlottery.co.kr/st/pblcnDsctn*
 // @match        *://*.dhlottery.co.kr/st/pblcnDsctn*
 // @run-at       document-end
@@ -29,7 +29,7 @@
   const CARD_SCALE_MAX = 1.0;       // 최대 배율 (원본 카드 크기 100%)
   const CARD_FIT_PADDING = 12;      // 표시 영역 가장자리 여유(px)
   // 1~6개일 때 세로 공간 활용 비율. 적은 수의 카드를 상대적으로 더 크게 표시합니다.
-  const CARD_HEIGHT_RATIO_BY_COUNT = [1, 1.0, 0.96, 0.92, 0.88, 0.84, 0.80];
+  const CARD_HEIGHT_RATIO_BY_COUNT = [1, 1.0, 1.0, 0.92, 0.88, 0.84, 0.80];
 
   const UI_FONT = "'Noto Sans KR', system-ui, -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif";
 
@@ -77,7 +77,7 @@
   const CLOCK_WEIGHT = 900;
   const CLOCK_COLOR = '#333';
   const CLOCK_TOP_MARGIN = 8;
-  const CLOCK_BOTTOM_GAP = 110;
+  const CLOCK_BOTTOM_GAP = 20;
 
   // ===== 하단 선택바 설정 =====
   const SELECTOR_HEIGHT = 96;
